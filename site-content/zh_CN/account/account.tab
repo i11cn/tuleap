@@ -14,29 +14,29 @@
 # Script: SF/www/account/index.php
 #
 account_options	title		Account Maintenance
-account_options	welcome		Welcome
+account_options	welcome		欢迎
 account_options	welcome_intro	You can view or change all of your account features from here. You may also wish to view your profile.
-account_options	member_since	Member since:
-account_options	user_id	User Id:
+account_options	member_since	加入时间:
+account_options	user_id	用户 Id:
 account_options	login_name	$1 Name
-account_options	ldap_name	LDAP Login
-account_options	password_label	Password:
-account_options	change_password	Change Password
-account_options	real_name	Real Name
-account_options	change_real_name	Change Real Name
-account_options	language	Language:
-account_options	timezone	Timezone:
-account_options	change_timezone	Change Timezone
-account_options	email_address		Email Addr:
-account_options	change_email_address	Change Email Addr
+account_options	ldap_name	LDAP 登录
+account_options	password_label	密码:
+account_options	change_password	修改密码
+account_options	real_name	真实姓名:
+account_options	change_real_name	修改真实姓名
+account_options	language	语言:
+account_options	timezone	时区:
+account_options	change_timezone	修改时区
+account_options	email_address		E-Mail 地址:
+account_options	change_email_address	修改 E-Mail 地址
 account_options	change_avatar	Change avatar
 account_options	change_avatar_desc	Please select a picture for your avatar. The uploaded image will be shrunk to 100×100 pixels.
-account_options	use_default_avatar	Use default avatar
-account_options	select_avatar	Select
-account_options	btn_save_avatar_label	Save avatar
+account_options	use_default_avatar	使用默认头像
+account_options	select_avatar	选择
+account_options	btn_save_avatar_label	保存头像
 account_options	preferences	Preferences
-account_options	theme	Theme:
-account_options	theme_variant	Choose your color:
+account_options	theme	主题:
+account_options	theme_variant	选择颜色:
 account_options	shell_account_title	Shell Account Information
 account_options	shell_box	Shell Box
 account_options	shell_shared_keys	SSH Shared Keys:
@@ -64,28 +64,28 @@ account_options	delete_svn_tokens_success	SVN tokens have been successfully dele
 account_options	delete_svn_tokens_error	An error occured during the SVN token deletion.
 account_options	remember_me	"Remember me" <span style="color:#666">($1 remembers your login/password. If you change this preference make sure to logout and login again)</span>
 account_options	csv_separator	CSV separator:
-account_options	comma	comma
-account_options	semicolon	semicolon
-account_options	tab	tab
+account_options	comma	逗号
+account_options	semicolon	分号
+account_options	tab	Tab
 account_options	username_display	Username Display:
 account_options	tuleap_login_and_name	Login (real name)
 account_options	tuleap_name_and_login	Real name (login)
-account_options	tuleap_login	Login
-account_options	realname	Real name
+account_options	tuleap_login	登录
+account_options	realname	真实姓名
 account_options	auth_attempt_title	Authentication details
-account_options	auth_attempt_last_success	Last successful login:
-account_options	auth_attempt_prev_success	Previous successful login:
-account_options	auth_attempt_last_failure	Last login failure:
-account_options	auth_attempt_nb_failure	Number of login failure:
+account_options	auth_attempt_last_success	最后一次登录成功:
+account_options	auth_attempt_prev_success	上次登录成功时间:
+account_options	auth_attempt_last_failure	最后一次登录失败:
+account_options	auth_attempt_nb_failure	登录失败次数:
 account_options	auth_attempt_sessions	Open sessions:
 
 #
 #-----------------------------------------------
 #
-account_preferences	email_settings	Email settings
+account_preferences	email_settings	E-Mail 设置
 account_preferences	session	Session
 account_preferences	appearance	Appearance
-account_preferences	import_export	Import/export
+account_preferences	import_export	导入/导出
 account_preferences	csv_dateformat	CSV Date format:
 account_preferences	month_day_year	month/day/year
 account_preferences	day_month_year	day/month/year
@@ -102,8 +102,8 @@ account_preferences	error_user_csv_dateformat	Verify CSV date format value
 account_preferences	error_username_display	Verify username display value
 account_preferences	error_user_tracker_mailformat	Verify emails format value
 account_preferences	save_preferences	Save preferences
-account_preferences	edition_title	Edition
-account_preferences	default_format_label	Default format:
+account_preferences	edition_title	编辑
+account_preferences	default_format_label	默认格式:
 account_preferences	default_format_intro	This option allows you to choose the default format for trackers' text fields.
 account_preferences	html_format	HTML
 account_preferences	text_format	Text
@@ -111,20 +111,20 @@ account_preferences	text_format	Text
 #-----------------------------------------------
 # Script: SF/www/account/change_pw.php
 #
-account_change_pw	title_success	Successfully Changed Password
+account_change_pw	title_success	密码修改成功
 account_change_pw	message	Congratulations. You have changed your $1 password.
-account_change_pw	title	Password Change
-account_change_pw	old_password	Old Password
-account_change_pw	new_password	Password
-account_change_pw	new_password2	Repeat password
-account_change_pw	user_not_found	Internal error: Cannot locate user in database.
-account_change_pw	incorrect_old_password	Old password is incorrect.
+account_change_pw	title	修改密码
+account_change_pw	old_password	原密码
+account_change_pw	new_password	新密码
+account_change_pw	new_password2	重复新密码
+account_change_pw	user_not_found	内部错误: 数据库中找不到用户。
+account_change_pw	incorrect_old_password	原密码不正确。
 account_change_pw	account_inactive	Account must be active to change password.
 account_change_pw	password_needed	You must supply a password.
-account_change_pw	password_not_match	Passwords do not match.
-account_change_pw	identical_password	Old and new passwords are identical.
-account_change_pw	internal_error_update	Internal error: Could not update password.
-account_change_pw	error_no_rights_to_change_password	You can not change the password of another user.
+account_change_pw	password_not_match	两次输入的密码不一致。
+account_change_pw	identical_password	新密码和旧密码一样。
+account_change_pw	internal_error_update	内部错误: 更新密码失败。
+account_change_pw	error_no_rights_to_change_password	不能修改其他用户的密码。
 #
 #-----------------------------------------------
 # Script: SF/www/account/change_realname.php
@@ -133,17 +133,17 @@ account_change_realname	error	You must supply a new real name.
 account_change_realname	title	Real Name Change
 account_change_realname	new_name	New Real Name
 
-account_change_avatar	success	Avatar changed!
-account_change_avatar	error	An error occured while saving the avatar.
+account_change_avatar	success	头像已修改！
+account_change_avatar	error	保存头像时出错。
 #
 #-----------------------------------------------
 # Script: SF/www/account/change_timezone.php
 #
-account_change_timezone	title	Change Timezone
-account_change_timezone	title2	Timezone Change
+account_change_timezone	title	修改时区
+account_change_timezone	title2	修改时区
 account_change_timezone	message	Now, no matter where you live, you can see all dates and times throughout $1 as if it were in your neighborhood.
 account_change_timezone	no_update	Nothing Updated
-account_change_timezone	choose_tz	Please choose a timezone
+account_change_timezone	choose_tz	请选择时区
 #
 #-----------------------------------------------
 # Script: SF/www/scripts/check_pw.js
@@ -155,7 +155,7 @@ account_check_pw	bad	Bad
 #-----------------------------------------------
 # Script: SF/www/account/deleted.php
 #
-account_deleted	title	Deleted Account
+account_deleted	title	删除账户
 account_deleted	message	Your account has been deleted. If you have questions regarding your deletion, please email <A HREF="mailto:$1">$2</A>.
 #
 #-----------------------------------------------

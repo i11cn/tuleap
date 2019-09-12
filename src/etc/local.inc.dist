@@ -291,8 +291,8 @@ $sys_noreply = '"Tuleap" <noreply@%sys_default_domain%>';
 
 // Supported languages (separated comma)
 // Only en_US and fr_FR are available for now
-// Exemple: 'en_US,fr_FR'
-$sys_supported_languages = 'en_US,fr_FR';
+// Exemple: 'en_US,fr_FR,zh_CN'
+$sys_supported_languages = 'en_US,fr_FR,zh_CN';
 
 // Default language for the system
 $sys_lang = 'en_US';

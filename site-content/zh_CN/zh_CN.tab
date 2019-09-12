@@ -19,8 +19,8 @@
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 #
 
-system	locale	en_US
-system	locale_label	English
+system	locale	zh_CN
+system	locale_label	简体中文
 system	strftimefmt	%Y %B %e  %H:%M
 system	strfdatefmt	%B %e, %Y
 system	strfdateshortfmt	%b %e, %Y
@@ -33,84 +33,84 @@ system	decimal_separator	.
 system	thousand_separator	,
 conf	content_encoding	utf-8
 conf	default_font	verdana,arial,helvetica,sans-serif
-conf	language_code	en
-conf	language_id	en_US
-global	perm_denied	Permission Denied
-global	error_perm_denied	Error - Permission Denied
-global	back_home	Back to Home Page
-global	back	Back
-global	btn_apply	Apply
-global	btn_delete	Delete
-global	btn_cancel	Cancel
-global	btn_update	Update
-global	btn_submit	Submit
-global	btn_search	Search
+conf	language_code	zh
+conf	language_id	zh_CN
+global	perm_denied	没有权限
+global	error_perm_denied	错误 - 没有权限
+global	back_home	返回首页
+global	back	后退
+global	btn_apply	应用
+global	btn_delete	删除
+global	btn_cancel	取消
+global	btn_update	更新
+global	btn_submit	提交
+global	btn_search	查找
 global	btn_submit_and_continue	Submit and continue
 global	btn_submit_and_stay	Submit and stay
-global	btn_browse	Browse
-global	btn_create	Create
-global	btn_preview	Preview
-global	btn_close	Close
-global	btn_reset	Reset
-global	btn_edit	Edit
+global	btn_browse	浏览
+global	btn_create	新建
+global	btn_preview	预览
+global	btn_close	关闭
+global	btn_reset	重置
+global	btn_edit	编辑
 global	btn_restrict	Restrict
-global	search_title	Search
-global	save_change	Save your change
-global	reset	reset
-global	delete	Delete
-global	add	Add
-global	total	Total
-global	warning	Warning!
-global	yes	Yes
-global	no	No
-global	on	On
-global	off	Off
+global	search_title	查找
+global	save_change	保存修改
+global	reset	重置
+global	delete	删除
+global	add	添加
+global	total	总计
+global	warning	警告！
+global	yes	是
+global	no	否
+global	on	开
+global	off	关
 global	any	Any
 global	none	None
 global	none_dashed	-- None --
 global	please_choose_dashed	-- Please choose
-global	begin	Begin
-global	end	End
-global	next	Next
-global	prev	Previous
+global	begin	开始
+global	end	结束
+global	next	下一个
+global	prev	前一个
 global	of	of
 global	printer_version	Printer version
-global	error	Error
-global	help	Help
+global	error	错误
+global	help	帮助
 global	by	By
-global	select	Select
+global	select	选择
 global	unchanged	Unchanged
 global	or	or
 global	and	and
 global	more	more
-global	activate	activate
-global	deactivate	deactivate
-global	Project	Project
-global	System	System
-global	Admin	Admin
-global	Administration	Administration
-global	Settings	Settings
-global	Personal	Personal
-global	default	Default
-global	no_mail_for_account	No email address for this account.
+global	activate	激活
+global	deactivate	禁用
+global	Project	项目
+global	System	系统
+global	Admin	管理
+global	Administration	管理员
+global	Settings	设置
+global	Personal	个性化
+global	default	默认值
+global	no_mail_for_account	该账号没有 E-Mail 。
 global	mail_failed	The mail was not accepted for the delivery. Please contact the administrator. His email address is: $1.
-global	open	Open
-global	closed	Closed
-global	status	Status
-global	return_to	<p>Requested page currently loading. If it does not, try <a href="$1">$1</a>.</p>
+global	open	打开
+global	closed	关闭
+global	status	状态
+global	return_to	<p>正在加载页面。如果长时间没有响应，请手动尝试 <a href="$1">$1</a> 。</p>
 global	at_the_beginning	At the beginning
 global	at_the_end	At the end
-global	after	After $1
-global	missing_parameters	Missing parameters
-global	error_upload	File upload error. Please try again.
-global	error_upload_nofile	File upload error($1). No file was uploaded.
-global	error_upload_partial	File upload error($1). The uploaded file was only partially uploaded.
-global	error_upload_size	File upload error($1). The uploaded file exceeds the maximum allowed file size.
-global	error_upload_unknown	File upload error($1). Unknown error code.
+global	after	在 $1 之后
+global	missing_parameters	缺少参数
+global	error_upload	文件上传失败，请重试。
+global	error_upload_nofile	文件上传失败($1)，没有文件上传完成。
+global	error_upload_partial	文件上传失败($1)，部分文件上传完成。
+global	error_upload_size	文件上传失败($1)，上传的文件超出大小限制。
+global	error_upload_unknown	文件上传失败($1)，未知原因。
 global	service_conf_not_inherited	The configuration of this service will not be inherited for sub-projects
-global	pick_date	Pick up a date
+global	pick_date	请选择日期
 global	show_frame	Show only this frame
 global	null	NULL
 global	error_synchronizertoken	Your request doesn't appear to be valid. Please retry.
-global	settings	Settings
-global	usage	Usage
+global	settings	设置
+global	usage	用法说明

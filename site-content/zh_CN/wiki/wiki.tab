@@ -12,7 +12,7 @@
 #-----------------------------------------------
 # Script: SF/common/wiki/views/WikiServiceViews.class.php
 #
-wiki_views_wikiserviceviews	wiki_title	Wiki for $1
+wiki_views_wikiserviceviews	wiki_title	$1 的 Wiki
 wiki_views_wikiserviceviews	wiki_page_title	$1 on $2
 wiki_views_wikiserviceviews	wiki_subtit_docu	<h3>$1Wiki Documents</h3>
 wiki_views_wikiserviceviews	wiki_subtit_pages	<h3>$1Wiki Pages</h3>
@@ -24,12 +24,12 @@ wiki_views_wikiserviceviews	menuadmin	Admin
 wiki_views_wikiserviceviews	menupages	Pages	
 wiki_views_wikiserviceviews	menudocuments	Documents
 wiki_views_wikiserviceviews	menuattch	Attach a file
-wiki_views_wikiserviceviews	attatch_page	UpLoad
+wiki_views_wikiserviceviews	attatch_page	上传
 wiki_views_wikiserviceviews	menuprefs	Preferences
 wiki_views_wikiserviceviews	preferences_page	UserPreferences
 wiki_views_wikiserviceviews	lock_title_spec	There are specific permissions on this Wiki Page
 wiki_views_wikiserviceviews	lock_title_set	There are permissions set on this Wiki
-wiki_views_wikiserviceviews	lock_alt	Lock
+wiki_views_wikiserviceviews	lock_alt	锁定
 wiki_views_wikiserviceviews	lighter_display	lighter display - click on phpWiki logo to return to normal display
 wiki_views_wikiserviceviews	install_intro	<h2>Wiki Creation</h2><p>This project has not initialized its Wiki yet.</p><p>In order to create the wiki, select the language for the wiki, and press the "$1" button.</p><p><b>Note:</b> <ul><li>The Wiki language can't be modified after the creation of the Wiki,</li><li>Wiki created in another language than English may contain some pages in English.</li></ul></p>
 wiki_views_wikiserviceviews	wiki_language	Wiki Language:
@@ -56,9 +56,9 @@ wiki_lib_attachment	err_multi_id	There are multiple identifier for an attachment
 # Script: SF/common/wiki/lib/WikiAttachmentRevision.class.php
 #
 wiki_lib_attachment_rev	err_multi_id	There are multiple identifier for an attachment. Please <a href="mailto:$1?Subject=Wiki Attachment Error (attch:$2,rev:$3)" title="Send a mail to $4 administrators">contact</a> a $4 administrator.
-wiki_lib_attachment_rev	err_upl_mv	Upload of '$1' failed.
+wiki_lib_attachment_rev	err_upl_mv	上传 '$1' 失败.
 wiki_lib_attachment_rev	err_create	An error occurred on attachment revision creation. Database entry not created.
-wiki_lib_attachment_rev	err_too_big	Sorry but this file is too big.
+wiki_lib_attachment_rev	err_too_big	抱歉，文件太大了。
 #
 #-----------------------------------------------
 # Script: SF/common/wiki/lib/WikiEntry.class.php
